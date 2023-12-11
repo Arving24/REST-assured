@@ -42,8 +42,7 @@ public class GetAndPostExamples {
 		 System.out.println(request.toJSONString());
 		 
 		 baseURI = "https://reqres.in/api";
-		 
-		 //test
+
 		 
 		 given().
 		   header("Content-Type", "application/json").
