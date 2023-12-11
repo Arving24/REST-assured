@@ -43,6 +43,8 @@ public class GetAndPostExamples {
 		 
 		 baseURI = "https://reqres.in/api";
 		 
+		 //test
+		 
 		 given().
 		   header("Content-Type", "application/json").
 		   contentType(ContentType.JSON).accept(ContentType.JSON).
